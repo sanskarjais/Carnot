@@ -8,3 +8,4 @@ NOTE:
   In the given xls file all student read only single book so, the application is made in that order.
   When multiple books are there then in the "views.py" file changes are required like change get to filter, and iterate over it.
   This application works fine with the current dataset.
+ Admin credentials are id - "admin" , password - "admin" without quotes.
