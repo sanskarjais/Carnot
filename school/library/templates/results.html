@@ -1,0 +1,21 @@
+<h1>Search Results</h1>
+
+<form method="get">
+  {{ filter.form.as_p }}
+  <button type="submit">Search</button>
+</form>
+
+
+  <!-- {% for user in filter.qs %}
+      <li>Name = {{ user.first_name }} - {{ user.last_name }}</li>
+  {% endfor %} -->
+ 
+<li>Name - {{stud.first_name}} {{stud.last_name}}</li>
+<li>Gender - {{stud.gender}}</li>
+<li>Email - {{stud.email}}</li>
+<li>Books - {{boo.book}}</li>
+<li>School - {{boo.school}}</li>
+<li>School No - {{boo.school.phone_no}}</li>
+
+<li>Pages - {{pg.pages}}</li>
+
